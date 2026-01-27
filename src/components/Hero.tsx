@@ -4,23 +4,22 @@ import { Link } from 'react-router-dom';
 export default function Hero() {
   return (
     <section className="relative flex min-h-[85vh] items-center justify-center px-6 py-20">
-      <div className="container mx-auto max-w-5xl text-center">
-        {/* <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 opacity-0 animate-fade-in">
-          <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
-          <span className="text-sm font-medium text-foreground">Available for new projects</span>
-        </div> */}
+      {/* Foto in alto a destra */}
+      <div className="absolute right-10 top-10 opacity-0 animate-fade-in">
+        <img 
+          src="/image/me.jpg" 
+          alt="Simo" 
+          className="h-32 w-32 rounded-full border-4 border-primary/30 object-cover shadow-lg shadow-primary/20 transition-transform hover:scale-105 md:h-40 md:w-40"
+        />
+      </div>
 
+      <div className="container mx-auto max-w-5xl text-center">
         <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-foreground opacity-0 animate-fade-in-delay-1 sm:text-5xl md:text-6xl lg:text-7xl">
           Hi, I'm{' '}
           <span className="text-gradient">Simo</span>
           <br />
           <span className="text-muted-foreground">Full-Stack Developer</span>
         </h1>
-
-        {/* <p className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground opacity-0 animate-fade-in-delay-2 md:text-xl">
-          I create modern and engaging web experiences, 
-          transforming ideas into digital products that make a difference.
-        </p> */}
 
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link
@@ -30,7 +29,6 @@ export default function Hero() {
             View Projects
             <ArrowRight className="h-5 w-5" />
           </Link>
-
           <a
             href="/image/brunelli_cv.pdf"
             download
@@ -40,7 +38,6 @@ export default function Hero() {
             Download CV
           </a>
         </div>
-
       </div>
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
