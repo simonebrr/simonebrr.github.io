@@ -51,4 +51,4 @@ if [ $? -ne 0 ]; then
 fi
 
 echo -e "\n${GREEN}✓✓✓ TUTTO COMPLETATO! ✓✓✓${NC}"
-echo -e "${GREEN}Il tuo sito è disponibile su: https://purp7epi3.github.io/${NC}\n"
+echo -e "${GREEN}Il tuo sito è disponibile su: https://simonebrr.github.io/${NC}\n"

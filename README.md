@@ -2,7 +2,7 @@
 
 ## Demo Live
 
-[Visita il sito](https://purp7epi3.github.io)
+[Visita il sito](https://simonebrr.github.io)
 
 ## Descrizione
 
@@ -29,8 +29,8 @@ Questo portfolio presenta i miei progetti, competenze e informazioni di contatto
 Clona il repository:
 
 ```bash
-git clone https://github.com/purplepi3/purp7epi3.github.io.git
-cd purp7epi3.github.io
+git clone https://github.com/simonebrr/simonebrr.github.io.git
+cd simonebrr.github.io
 ```
 
 Installa le dipendenze:
